@@ -1,0 +1,60 @@
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 80vh;
+}
+
+.card {
+    border: .5rem black solid;
+    border-radius: 1rem;
+    height :10rem;
+    width :10rem;
+    margin: 2rem;
+    transition: height 1s, width 1s, margin 1s, background-color 1s;
+}
+
+.card:hover {
+    height: 8rem;
+    width: 8rem;
+    margin: 3rem;
+}
+
+.selected-by-me-card {
+    background-color :blue;
+}
+
+.selected-card {
+    background-color :gray;
+}
+
+
+.unselected-card {
+    background-color :white;
+}
+
+.unavailable-card {
+    background-color :gray;
+}
+
+.clear-btn{
+    display: block;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: rgb(151, 151, 236);
+    border: .5rem black solid;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 1rem;
+    height: 5rem;
+    width: 10rem;
+    margin: 2rem auto;
+    transition: height 1s, width 1s, margin 1s, background-color 1s;
+}
+
+.clear-btn:hover {
+    width: 8rem;
+    height: 4rem;
+    margin: 2.5rem auto;
+}
